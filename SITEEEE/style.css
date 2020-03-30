@@ -1,0 +1,78 @@
+html {
+    background-color: black;
+}
+nav{
+    margin: auto;
+    color: white;
+    height: 100px;
+    width: 90%;
+    border: solid 2px white;
+}
+ul{
+    display: inline-block;
+    margin-left: 35%;
+
+}
+ul li {
+    font-size: 35px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover {
+    font-size: 30px;
+    color: yellow;
+}
+#logo {
+    color: orangered;
+    margin: 10px 10px;
+    display: inline-block;
+    font-size: 50px;
+}
+.picture{
+    border: solid 1px white;
+    margin: 20px;
+    width: 95%;
+    height: 415px;
+}
+.picture:hover{
+    filter: grayscale(100%);
+}
+section{
+    margin: 50px 50px;
+    display: flex;
+   flex-wrap: wrap;
+
+}
+#description {
+
+    color: black;
+    background-image: url(img/camera.jpg);
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 700px;
+    margin: 50px 50px;
+
+}
+p{
+    color: white;
+}
+footer{
+    
+    color: white;
+    height: 50px;
+    width: 90%;
+    border: solid 2px white;
+    margin: auto auto 0px auto;
+}
+footer p{
+    margin: 0 40%;
+}
+h1{
+    margin: 50px;
+    color: white;
+}
